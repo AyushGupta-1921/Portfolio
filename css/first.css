@@ -1,0 +1,198 @@
+.first {
+    /* border: 2px solid red; */
+    height: 50vw;
+    width: 100%;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    animation: anim 41s ease-in-out infinite 0s;
+}
+
+@keyframes anim {
+
+    0%,
+    100% {
+        background-image: url(../img/bg\ 1.jpg);
+    }
+
+    20% {
+        background-image: url(../img/bg\ 2.jpg);
+    }
+
+    40% {
+        background-image: url(../img/bg\ 3.webp);
+    }
+
+    60% {
+        background-image: url(../img/bg\ 6.webp);
+    }
+
+    80% {
+        background-image: url(../img/bg\ 5.jpg);
+    }
+}
+
+.nav {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 5vw;
+    padding: 0;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 2px 4px 30px black;
+}
+
+.left {
+    font-size: 1.5vw;
+    margin-left: 1vw;
+    display: flex;
+    color: white;
+    width: 10%;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: bolder;
+}
+
+.mid {
+    width: 80%;
+    text-align: center;
+}
+
+.right {
+    color: white;
+    width: 10%;
+    margin-top: 0.3vw;
+    /* margin-right: 0.vw; */
+    text-align: right;
+}
+
+.right:hover {
+    cursor: pointer;
+}
+
+#img {
+    width: 5.5vw;
+}
+
+#l2 {
+    color: #ff9393;
+    font-size: 2vw;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0% 0%;
+    text-decoration: none;
+}
+
+ul li:hover {
+    transform: scale(1.3);
+}
+
+ul li a {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    padding: 0.4vw 1.1vw;
+    text-decoration: none;
+    font-size: 1.35vw;
+    margin: 0vw 0.18vw;
+    font-weight: bolder;
+    font-weight: 800;
+}
+
+ul li a:hover {
+    /* color: #f44646; */
+    color: #dc5149;
+}
+
+.wel {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    top: 20vw;
+}
+
+.wel1 {
+    font-size: 2.3vw;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+    animation: wel 1s ease;
+}
+
+.wel2 {
+    color: white;
+    font-weight: bold;
+    font-size: 3vw;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Abril Fatface', cursive;
+    animation: wel 1s ease;
+}
+
+.wel3 {
+    font-size: 1.5vw;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    background-color: #d857753f;
+    position: absolute;
+    font-weight: bolder;
+    margin-top: 0.4vw;
+    left: 39vw;
+    width: 22vw;
+    border-radius: 103px;
+    padding: 0.4vw;
+    height: 2.3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: wel 1s ease;
+    box-shadow: inset 0 0 20px #b8193e9e;
+}
+
+@keyframes wel {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+#button {
+    width: 3vw;
+    position: fixed;
+    bottom: 1.5vw;
+    z-index: 88;
+    right: 1.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8a8a8a58;
+    height: 3vw;
+    border-radius: 50%;
+}
+
+.buttonimage {
+    width: 1vw;
+    height: 1vw;
+    filter: invert(1);
+    transition: all 2s ease;
+}
+
+#button:hover {
+    transform: scale(1.1);
+}

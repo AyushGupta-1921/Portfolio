@@ -1,0 +1,144 @@
+.fifth {
+    background-image: url(../img/bg13.jpg);
+    width: 100%;
+    height: 45vw;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: revert;
+    background-position: center 77%;
+}
+
+.intBox1 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1.2vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.intBox2 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1.2vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.interest {
+    color: black;
+    width: 100%;
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3.5vw;
+    font-weight: bolder;
+    backdrop-filter: blur(4px);
+    padding-top: 2vw;
+}
+
+.int {
+    width: 15%;
+    height: 15vw;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.6vw;
+    font-weight: bolder;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 9px 1px rgba(0, 0, 0, 0.703);
+    border-radius: 2.5px;
+    margin: 0px 0.6vw;
+    transition: all 1s ease;
+    margin: 2vw;
+}
+
+.int:hover {
+    transform: scale(1.1);
+    font-size: 2vw;
+    border-radius: 2.5px;
+    font-weight: 600;
+}
+
+#photo {
+    background-image: url(../img/photography.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+#song {
+    background-image: url(../img/song.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+#travel {
+    background-image: url(../img/travelling.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+#games {
+    background-image: url(../img/games.jpeg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+#horror {
+    background-image: url(../img/horror.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0vw;
+}
+
+#painting {
+    background-image: url(../img/Painting4.jpeg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0vw;
+}
+
+#animal {
+    background-image: url(../img/AnimalLover2.jpeg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0vw;
+    background-position: center 60%;
+}
+
+#red {
+    color: #ff5d5d;
+}

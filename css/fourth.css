@@ -1,0 +1,62 @@
+.fourth {
+    width: 100%;
+    height: 40vw;
+    background-image: url(../img/cc2.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: revert;
+    background-position: center 77%;
+}
+
+.skills {
+    width: 100%;
+    height: 5.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3.5vw;
+    color: black;
+    backdrop-filter: blur(3px);
+    padding-top: 2vw;
+}
+
+.skillsContainer {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 2vw;
+}
+
+.langIcon {
+    border-radius: 0.9vw;
+    padding: 1.6vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 10vw;
+    height: 10vw;
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(38, 38, 38, 0.265);
+    box-shadow: rgba(6, 15, 19, 0.224) 0px 2px 4px 0px,
+        rgba(10, 22, 27, 0.313) 0px 2px 16px 0px;
+
+    transition: all ease 0.1s;
+    margin: 2vw;
+}
+
+.langName {
+    margin-top: 0.78vw;
+    font-weight: 600;
+    font-size: 1.2vw;
+}
+
+.langIcon:hover {
+    transform: scale(1.16);
+}
